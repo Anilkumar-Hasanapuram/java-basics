@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Alice
+{
+    public static void main(String args[])
+    {
+        //write your code
+        int rev=0,d,temp;
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        temp =a;
+        while(a>0)
+        {
+            temp=a%10;
+            rev=rev+temp;
+            a=a/10;
+        }
+        System.out.println(rev);
+    }
+}
