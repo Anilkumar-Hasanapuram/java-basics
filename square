@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class square 
+{
+public static void main(String args[])
+	{
+	    Scanner sc= new Scanner(System.in);
+	   int s1,s2;
+	   System.out.print("Enter an integer number: ");
+	   s1=sc.nextInt();
+	    int square=(int)(Math.pow(s1,2));
+	    System.out.println("Square of "+s1+" is: "+square);
+	    System.out.print("Enter an integer number: ");
+	   s2=sc.nextInt();
+	  int cube=(int)(Math.pow(s2,3));
+	  System.out.print("Cube of "+s2+" is: "+cube);
+	}
+}
