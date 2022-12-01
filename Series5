@@ -1,0 +1,19 @@
+ import java.util.Scanner;
+public class Series5
+{
+    public static void main(String[] args)
+    {
+        //Write your code
+        Scanner sc=new Scanner(System.in);
+        
+        int n;
+        n=sc.nextInt();
+        int s=11;
+        for(int i=1;i<=n;i++)
+        {
+            System.out.print((int)Math.pow(s,2)+" ");
+            //System.out.print(" ");
+            s=s+4;
+        }
+    }
+}
